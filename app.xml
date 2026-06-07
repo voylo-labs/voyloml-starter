@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 
+  Voylo Starter: Hello World
+  This VoyloML app answers a call and plays a welcome audio file.
+  
+  Deploy this file to any static host and point your trunk at the URL.
+-->
+<Response>
+  <!-- Play the Voylo welcome audio -->
+  <Play>https://voylo.s3.ap-south-1.amazonaws.com/voylo-welcom.wav</Play>
+  
+  <!-- Hang up -->
+  <Hangup/>
+</Response>
